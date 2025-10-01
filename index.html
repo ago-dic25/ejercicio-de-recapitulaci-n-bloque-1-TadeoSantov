@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFest 2024 - Universidad Tecnológica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>TechFest 2024</h1>
+            </div>
+            <nav class="nav" role="navigation" aria-label="Navegación principal">
+                <ul class="nav-list">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#agenda" class="nav-link">Agenda</a></li>
+                    <li><a href="#ponentes" class="nav-link">Ponentes</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section id="inicio" class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <h2 id="hero-title" class="hero-title">El futuro de la tecnología</h2>
+                <p class="hero-subtitle">Únete a nosotros en el evento tecnológico más importante del año. Descubre las últimas tendencias en desarrollo, inteligencia artificial y innovación digital.</p>
+                <button class="btn-register" type="button" aria-describedby="register-description">
+                    Registrarse ahora
+                </button>
+                <p id="register-description" class="sr-only">Botón para registrarse en el evento TechFest 2024</p>
+            </div>
+        </section>
+
+        <section id="agenda" class="agenda" aria-labelledby="agenda-title">
+            <div class="container">
+                <h2 id="agenda-title" class="section-title">Agenda del evento</h2>
+                <ul class="agenda-list" role="list">
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T09:00">09:00 - 09:30</time>
+                        <h3>Registro y bienvenida</h3>
+                        <p>Recepción de participantes y entrega de materiales</p>
+                    </li>
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T09:30">09:30 - 10:30</time>
+                        <h3>Inteligencia Artificial en el desarrollo web</h3>
+                        <p>Explorando las últimas herramientas de IA para desarrolladores</p>
+                    </li>
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T10:45">10:45 - 11:45</time>
+                        <h3>React y el futuro del frontend</h3>
+                        <p>Nuevas características y mejores prácticas en React 18</p>
+                    </li>
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T12:00">12:00 - 13:00</time>
+                        <h3>Almuerzo y networking</h3>
+                        <p>Momento para conectar con otros profesionales</p>
+                    </li>
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T13:15">13:15 - 14:15</time>
+                        <h3>Arquitectura de microservicios</h3>
+                        <p>Diseñando sistemas escalables y mantenibles</p>
+                    </li>
+                    <li class="agenda-item">
+                        <time datetime="2024-03-15T14:30">14:30 - 15:30</time>
+                        <h3>DevOps y automatización</h3>
+                        <p>Optimizando el ciclo de desarrollo y despliegue</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ponentes" class="speakers" aria-labelledby="speakers-title">
+            <div class="container">
+                <h2 id="speakers-title" class="section-title">Nuestros ponentes</h2>
+                <div class="speakers-grid">
+                    <article class="speaker-card">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Foto de Carlos Mendoza, especialista en IA" class="speaker-photo">
+                        <h3 class="speaker-name">Carlos Mendoza</h3>
+                        <p class="speaker-title">Inteligencia Artificial en el desarrollo web</p>
+                        <p class="speaker-bio">Ingeniero de software con 8 años de experiencia en machine learning y desarrollo web.</p>
+                    </article>
+                    
+                    <article class="speaker-card">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Foto de Ana Rodríguez, experta en React" class="speaker-photo">
+                        <h3 class="speaker-name">Ana Rodríguez</h3>
+                        <p class="speaker-title">React y el futuro del frontend</p>
+                        <p class="speaker-bio">Frontend developer senior especializada en React y tecnologías modernas de JavaScript.</p>
+                    </article>
+                    
+                    <article class="speaker-card">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Foto de Miguel Torres, arquitecto de software" class="speaker-photo">
+                        <h3 class="speaker-name">Miguel Torres</h3>
+                        <p class="speaker-title">Arquitectura de microservicios</p>
+                        <p class="speaker-bio">Arquitecto de software con experiencia en sistemas distribuidos y escalabilidad.</p>
+                    </article>
+                    
+                    <article class="speaker-card">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face" alt="Foto de Laura García, especialista en DevOps" class="speaker-photo">
+                        <h3 class="speaker-name">Laura García</h3>
+                        <p class="speaker-title">DevOps y automatización</p>
+                        <p class="speaker-bio">DevOps engineer con expertise en CI/CD, Docker y Kubernetes.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <address>
+                        <p>Universidad Tecnológica</p>
+                        <p>Av. Tecnología 123, Ciudad</p>
+                        <p>Tel: +52 (81) 123-4567</p>
+                        <p>Email: <a href="mailto:info@techfest2024.edu">info@techfest2024.edu</a></p>
+                    </address>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Síguenos en Twitter">
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Síguenos en LinkedIn">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Síguenos en Instagram">
+                            <span>Instagram</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <form class="newsletter-form" aria-labelledby="newsletter-title">
+                        <label for="email" class="sr-only">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required aria-describedby="email-help">
+                        <button type="submit" class="btn-subscribe">Suscribirse</button>
+                        <p id="email-help" class="form-help">Recibe las últimas noticias sobre el evento</p>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechFest. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
